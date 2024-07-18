@@ -20,3 +20,5 @@ main = do
     let image = renderMesh transformedMesh materials lighting
     saveImage outputFile image
     putStrLn "3D image generation completed!"
+
+
